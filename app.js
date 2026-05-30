@@ -33,7 +33,7 @@ const handleSubmit = async (event) => {
       },
       body: appendedFormData,
     });
-    alert("Form submitted successfully!");
+    alert("We'll be in touch soon!");
   } catch (error) {
     alert("Something went wrong, please try again");
     console.log(error);
